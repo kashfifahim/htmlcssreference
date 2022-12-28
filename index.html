@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kashfi's CSS Box Model Cheatsheet</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Kashfi's CSS Box Model Cheatsheet</h1>
+    </header>
+
+    <main>
+        <h2>CSS Box Model</h2>
+        <p>
+            What is it? The box model is the set of properties that define parts of an element
+            that take up space on a web page.
+        </p>
+
+        <table>
+            <th>
+                Property
+            </th>
+            <th>
+                Description
+            </th>
+            <th>Notes</th>
+            <tr>
+                <td class="code">width</td>
+                <td>the width of the content area</td>
+
+            </tr>
+            <tr>
+                <td class="code">height</td>
+                <td>the height of the content area</td>
+            </tr>
+            <tr>
+                <td class="code">padding</td>
+                <td>the amount of space</td>
+            </tr>
+            <tr>
+                <td class="code">border</td>
+                <td>the thickness and style of the border surrounding the content area and padding</td>
+            </tr>
+            <tr>
+                <td class="code">margin</td>
+                <td>the amount of space between the border and the outside edge of the element</td>
+                <td>top and bottom margins collapse, meaning they do not add up instead the larger 
+                    of the two vertical margins sets the distance between adjacent elements</td>
+            </tr>
+            <tr>
+                <td class="code">min-width</td>
+                <td>ensures a minimum width of an element's box</td>
+            </tr>
+            <tr>
+                <td class="code">min-width</td>
+                <td>ensures a max width of an element's box</td>
+            </tr>
+            <tr>
+                <td class="code">overflow</td>
+                <td>controls what happens to content that spills outside of its box</td>
+            </tr>
+            <tr>
+                <td class="code">overflow: hidden</td>
+                <td>any content that overflows will be hidden from view</td>
+            </tr>
+            <tr>
+                <td class="code">overflow: scroll</td>
+                <td>a scrollbar will be added to the element's box so that the rest
+                    of the content can be viewed by scrolling
+                </td>
+            </tr>
+            <tr>
+                <td class="code">overflow: visible</td>
+                <td>the overflow content will be displayed outside of the containing element</td>
+            </tr>
+            <tr>
+                <td>Resetting defaults</td>
+                <td>* {<br>
+                margin: 0;<br>
+                padding: 0;<br>
+            }</td>
+            <td>
+                many deverlopers choose to reset default values so they can truly work with a clean slate.
+                This code resets the default margin and padding. It is often the first rule in an external stylesheet.
+            </td>
+            </tr>
+            <tr>
+                <td class="code">visibility</td>
+                <td>elements can be hidden from view with the visibility property</td>
+            </tr>
+            <tr>
+                <td class="code">visibility: hidden</td>
+                <td>hides an element</td>
+            </tr>
+            <tr>
+                <td class="code">visibility: visible</td>
+                <td>displays an element</td>
+            </tr>
+            <tr>
+                <td class="code">visibility: collapse</td>
+                <td>collapses an element</td>
+            </tr>
+            <tr>
+                <td class="code">display: none</td>
+                <td>element will be completely removed from the web page</td>
+            </tr>
+            <tr>
+                <td class="code">visibility: hidden</td>
+                <td>will not be visible on the web page but the space is reserved for</td>
+            </tr>
+        </table>
+    </main>
+
+    <footer>
+        <p>Made by Kashfi Fahim | Kashfi.Fahim@gmail.com | Last updated on December 28, 2022</p>
+    </footer>
+    
+</body>
+</html>

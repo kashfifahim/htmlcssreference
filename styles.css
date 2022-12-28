@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    border: 1px solid red;
+    /* reset browser's margin, padding */
+    margin: 0;
+    padding: 0;
+}
+
+.code {
+    padding: 0 0.25rem;
+    margin: 0 0.0625rem;
+    border-radius: 0.125rem;
+    color: #15141f;
+    background-color: #42f98e;
+    white-space: normal;
+    vertical-align: baseline;
+    font-family: Monaco,Menlo,Ubuntu Mono,Droid Sans Mono,Consolas,monospace;
+    font-size: .8em;
+}
